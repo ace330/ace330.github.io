@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #8A0606;
+  color: white
+}
+
+header .logo img {
+  height: 50px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+#hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: url('images/hero.jpg') no-repeat center center/cover;
+  color: black;
+}
+
+#hero .btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #8A0606;
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.menu-item {
+  margin: 20px 0;
+}
+
+.menu-item img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+a:hover, .btn:hover {
+  opacity: 0.8;
+}
